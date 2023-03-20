@@ -23,7 +23,7 @@ header {
     justify-content: space-around;
 }
 
-#logo {
+.logo {
     width: 20%;
 }
 
@@ -36,15 +36,33 @@ header {
 }
 
 /* main */
-main {
-    padding-top: 50px;
-}
 
-.ddownload-section {
+
+#download-section {
     background-color: steelblue;
 }
 
 
+/* footer */
+footer {
+    background-color: #1b1c25db;
+    padding-top: 50px;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+.footers-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(125, 120, 179);
+}
 /* DEBUG */
 
 /* header */
@@ -52,7 +70,7 @@ header {
     min-height: 100px;
 }
 
-#logo {
+.logo {
     height: 50px;
     border: 1px solid blue;
 }
@@ -68,11 +86,24 @@ header {
 }
 
 /* main */
-.download-section {
+#download-section {
+    width: 100%;
     height: 300px; 
-    border: 1px solid blue;
+    border: 4px solid black;
 }
 
-main {
-
+/* footer */
+/* footer {
+    height: 300px;
 }
+
+.links-footer {
+    border: 1px solid cornsilk;
+}
+
+ul {
+    border: 2px dotted black;
+}
+.footers-footer {
+    border: 1px solid cornsilk;
+} */
