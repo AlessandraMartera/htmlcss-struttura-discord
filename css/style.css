@@ -5,9 +5,20 @@
     box-sizing: border-box;
 }
 
+body {
+    text-align: center;
+}
+
+/* craft a center class, to center the text */
+.center  {
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* header settings */
 header {
     background-color: steelblue;
+    padding: 25px;
     display: flex;
     justify-content: space-around;
 }
@@ -25,9 +36,15 @@ header {
 }
 
 /* main */
+main {
+    padding-top: 50px;
+}
+
 .ddownload-section {
     background-color: steelblue;
 }
+
+
 /* DEBUG */
 
 /* header */
@@ -53,4 +70,9 @@ header {
 /* main */
 .download-section {
     height: 300px; 
+    border: 1px solid blue;
+}
+
+main {
+
 }
